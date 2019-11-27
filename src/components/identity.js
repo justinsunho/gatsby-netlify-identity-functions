@@ -3,7 +3,7 @@ import { useNetlifyIdentity } from "react-netlify-identity-widget"
 
 const Identity = () => {
   const identity = useNetlifyIdentity(
-    "https://gatsby-netlify-identity-functions.netlify.com"
+    "https://elastic-hoover-c89024.netlify.com/"
   )
 
   return identity && identity.user ? (
