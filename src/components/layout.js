@@ -19,7 +19,7 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   const identity = useNetlifyIdentity(
-    "https://gatsby-netlify-identity-functions.netlify.com"
+    "https://elastic-hoover-c89024.netlify.com/"
   )
 
   return (
